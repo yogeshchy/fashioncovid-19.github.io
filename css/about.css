@@ -1,0 +1,85 @@
+*{
+    
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+    }
+    body{
+         background:#ecf0f1;
+    }
+    
+    /* CSS FOR HEADER*/
+    
+    header {
+       border-radius: 10px;
+        background:url('/images/header.jpg')
+    
+    }
+    
+    
+    
+    #logo {
+        width: 150px;
+        display:block;
+        margin:auto;
+    }
+    
+    
+    .navkey{
+         background-color:rgb(252, 144, 3);
+         border-radius:10px;
+         width:50%;
+         margin:auto;
+    }
+    
+    
+    .navkey ul li{
+         list-style-type: none;
+         display:inline-block;
+         margin: 20px 27px;
+    
+    }
+    
+    
+    .navkey ul li a{
+         color:black;
+         text-decoration: none;
+         font-size:20px;
+         font-family: system-ui;
+    
+    }
+    .navkey ul li a:hover{
+         background-color:#eee;
+         border-radius:4px;
+         transition:0.9s;
+    }
+
+
+
+
+    footer{
+        background:whitesmoke;
+        position:relative;
+        bottom:0%;
+        z-index:9999;
+   
+   
+   }
+   .foot{
+        display: flex;
+   }
+   .contact{
+        display:flex;
+   }
+   .fb,.insta,.gmail{
+        padding:10px;
+   }
+   .copyright{
+        position:relative;
+        left:40%;
+        padding-top:20px;
+   }
+   
+   
+   
